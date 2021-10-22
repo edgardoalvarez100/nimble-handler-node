@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
-var https = require("https");
+const https = require("https");
+const fs = require("fs");
 
 class Server {
   constructor() {
