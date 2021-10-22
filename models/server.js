@@ -22,7 +22,7 @@ class Server {
           },
           this.app
         )
-        .listen(this.port, function () {
+        .listen(this.port,  () => {
           console.log("Servidor https correindo en el puerto ", this.port);
         });
     } else {
